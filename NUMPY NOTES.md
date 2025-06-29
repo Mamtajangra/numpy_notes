@@ -296,6 +296,7 @@ array2 = np.empty((2, 2, 2))
 print("\n3-D Array: ")
 print(array2)
 ```
+
 **Output**
 
 2-D Array: 
@@ -493,24 +494,22 @@ print(array1.ndim)
 # Output: 2
 ```---
 
-## NumPy Array size Attribute
+```
 
+## NumPy Array size Attribute
+import numpy as np
 The `size` attribute returns the total number of elements in the given array.
 
 Let's see an example.
 
-```
 import numpy as np
-
 array1 = np.array([[1, 2, 3],
                  [6, 7, 8]])
 
-# return total number of elements in array1
+# 
+return total number of elements in array1
 print(array1.size)
 
-# Output: 6
-```
----
 
 ## NumPy Array shape Attribute
 
